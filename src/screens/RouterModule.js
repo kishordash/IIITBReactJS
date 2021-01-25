@@ -10,6 +10,7 @@ import Login from './login/Login';
 class RouterModule extends Component{
     constructor(){
         super()
+        this.baseUrl = "https://api.instagram.com/v1/users/self/"
          
     }
 
@@ -17,9 +18,9 @@ class RouterModule extends Component{
         return(
             <Router>
                 <div className = 'main-container'>
-                    <Route exact path = '/' render={(props) => <Login {...props} />}/>         
-                    <Route exact path = '/home' render={(props) => <Home {...props}/> }/>         
-                    <Route exact path = '/profile' render={(props) => <Profile {...props} />}/>      
+                    <Route exact path = '/' render={(props) => <Login {...props} baseUrl = {this.baseUrl}/>}/>         
+                    <Route exact path = '/home' render={(props) => <Home {...props} baseUrl = {this.baseUrl}/> }/>         
+                    <Route exact path = '/profile' render={(props) => <Profile {...props} baseUrl = {this.baseUrl} />}/>      
                 </div>
             </Router>
         )

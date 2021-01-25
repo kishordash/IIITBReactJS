@@ -1,34 +1,56 @@
-.login-header{
-    font-size: 30px;
+/* style for the div conatining the grid  */
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
 }
 
-.login-card{
-    display: block;
-    position: relative;
-    top: 10%;
-    bottom: 40%;
-    left: 37%;
-    right: 40%;
-    height: fit-content;
-    width: 30%;
-    overflow: visible;
-    border-radius: 4px;
-    outline: none;
-    padding: 20px 40px;
+/* style for the line below image and above caption */
+.horizontal-rule{
+    height: 2px;
+    background: rgb(223,223,223);
+    margin-top: 10px;
+}
+/* style for the image caption */
+.image-caption{
+    padding-top: 5px;
+    font-family: auto;
+    font-size: 18px;
+}
+/* style for the hashtags of the image */
+.image-hashtags{
+    font-size: 16px;
+    padding-top: 3px;
+    font-family: auto;
+    color: rgb(122,188,255);
 }
 
-.dispNone{
-    display: none;
+/* style for the favorite icon when liked   */
+.image-liked-icon{
+    color:red; 
 }
 
-.dispBlock{
-    display: block;
+/* style for the favorite icon when unliked   */
+.image-like-icon{
+    color: black;
 }
 
-.red{
-    color: red;
+
+/* style for the display of comment  */
+.comment-display{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
-.login-btn{
-    cursor: pointer;
+/* style for the comment text  */
+.comment-text{
+    padding-left:10px;
+    width:100%;
+}
+
+/* style for the commented username */
+.comment-username{
+    font-size: inherit;
 }
