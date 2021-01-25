@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import RouterModule from './screens/RouterModule';
 
 ReactDOM.render(
-    <span>
-        Image Viewer
-    </span>, 
+    <RouterModule/>,
     document.getElementById('root')
+
+     
 );
