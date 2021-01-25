@@ -45,7 +45,7 @@ class Login extends Component {
         let username = "1234";
         let password = "1234";
 
-        let accessToken = "IGQVJVaFQ0VloxNHlYbkE3X1I5bWxsemZAGenZA1dEVhdFYyOERZANFR3STVxbTN6dXRhcWRfQTRYRGRHQy1SbEZAJUzAxSUpWZAlpJcVNUa056RHBZAdDk5OFhVdklJRGlZAcTg4VmhsYzEyNkhBc3Q3cXhjLXh6ZADNEOThRMGlr";
+        let accessToken = "IGQVJVaDJYWFNzT21XTWdCdkRmZAHBPbDZAfWHY0Yy1sUzQ4VVpBSjlMWlZAJQzNRYWItbHFDYnRsNi1HTDlncnh3Tzc3WWdjRjZAiYzE2NWNCNkRxVmJjNWF3c2J5NnRIWUIzQ052YVBDTV9TOWc3SzQ5bjg4TUdTWGRHb3Qw";
         if (this.state.username === "" || this.state.password === "") {
             // The usernameRequired and passwordRequired fields are used when we want to store the class to be assigned 
             this.state.username === "" ? this.setState({ usernameRequired: "dispBlock" }) : this.setState({ usernameRequired: "dispNone" });
